@@ -58,13 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7051FDED58BBBC668F843177 /* ZDModulesKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZDModulesKit.podspec; path = ../ZDModulesKit.podspec; sourceTree = "<group>"; };
+		7051FDED58BBBC668F843177 /* ZDModulesKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZDModulesKit.podspec; path = ../ZDModulesKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86ADDAA795C18F68FD9540F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		86ADDAA795C18F68FD9540F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9DEF6327615CF433C4E2970 /* Pods-ZDModulesKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDModulesKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ZDModulesKit_Example/Pods-ZDModulesKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C163FDF18174606E17447718 /* Pods_ZDModulesKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDModulesKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF57ABC57EABAA1BBA515793 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CF57ABC57EABAA1BBA515793 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D2664DF72BFAC02B6C4F39D7 /* Pods_ZDModulesKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDModulesKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E567D587C12B67492C4D7D50 /* Pods-ZDModulesKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDModulesKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZDModulesKit_Tests/Pods-ZDModulesKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				27AF62A82A9CE7F995290DF9 /* Pods-ZDModulesKit_Tests.debug.xcconfig */,
 				E567D587C12B67492C4D7D50 /* Pods-ZDModulesKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

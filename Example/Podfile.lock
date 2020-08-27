@@ -1,0 +1,16 @@
+PODS:
+  - ZDModulesKit (0.1.0)
+
+DEPENDENCIES:
+  - ZDModulesKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZDModulesKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZDModulesKit: 1c406a9ff54245d637f2ae05e5dba0e7c8945158
+
+PODFILE CHECKSUM: dbf2687e9d932ad6c11e10ea010619ee3d14ba19
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module ZDModulesKit {
+  umbrella header "ZDModulesKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

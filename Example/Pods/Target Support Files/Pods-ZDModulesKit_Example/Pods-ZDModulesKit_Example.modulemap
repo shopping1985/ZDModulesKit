@@ -1,0 +1,6 @@
+framework module Pods_ZDModulesKit_Example {
+  umbrella header "Pods-ZDModulesKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
